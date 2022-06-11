@@ -1,0 +1,74 @@
+.la-maison__faq {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.la-maison__faq h2 {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+
+}
+
+.la-maison__faq h3 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 51px;
+	text-transform: capitalize;
+	width: 70%;
+}
+
+
+.la-maison__faq h5 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.la-maison__faq p {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	color: #808080;
+}
+
+.la-maison__faq-head,
+.la-maison__faq-body {
+	width: 50%;
+	padding: 3rem;
+}
+
+/* .la-maison__faq-head {
+	display: flex;
+	justify-content: center;
+} */
+
+.icon {
+	color: blue;
+}
+
+.message {
+	border-bottom: 2px solid #808080;
+	margin-bottom: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+	.la-maison__faq-head,
+	.la-maison__faq-body {
+		width: 100%;
+		padding: 3rem;
+	}
+
+	.la-maison__faq {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+}

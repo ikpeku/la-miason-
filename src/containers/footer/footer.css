@@ -1,0 +1,29 @@
+
+.la-maison__footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem 5rem 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #808080;
+}
+.media-home{
+    display: flex;
+    gap: 1rem;
+}
+
+.media{
+    border-radius: 50%;
+    border: 2px solid #808080;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .la-maison__footer{
+        flex-direction: column;
+    }
+
+    .media-home{
+      margin-top:1rem ;
+    }
+}

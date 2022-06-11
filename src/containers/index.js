@@ -1,0 +1,8 @@
+export { default as  Blog } from "./blog/Blog"
+export { default as  Faq } from "./faq/Faq"
+export { default as  Footer } from "./footer/Footer"
+export { default as  Header } from "./header/Header"
+export { default as  Services } from "./our_services/Services"
+export { default as  Popular } from "./popular/Popular"
+export { default as  Testimonial } from "./testimonial/Testimonial"
+export { default as  Agent } from "./testimonial/Agent"
